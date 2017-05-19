@@ -1,0 +1,10 @@
+.\obj\mmc_sd.o: src\HARDWARE\SD\MMC_SD.C
+.\obj\mmc_sd.o: .\src\SYSTEM\sys\sys.h
+.\obj\mmc_sd.o: .\src\SYSTEM\sys\stm32f10x.h
+.\obj\mmc_sd.o: .\src\SYSTEM\sys\core_cm3.h
+.\obj\mmc_sd.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\mmc_sd.o: .\src\SYSTEM\sys\system_stm32f10x.h
+.\obj\mmc_sd.o: src\HARDWARE\SD\mmc_sd.h
+.\obj\mmc_sd.o: .\src\HARDWARE\SPI\spi.h
+.\obj\mmc_sd.o: .\src\SYSTEM\usart\usart.h
+.\obj\mmc_sd.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

@@ -1,0 +1,456 @@
+Dependencies for Project 'ireead', Target 'Target 1': (DO NOT MODIFY !)
+F (.\src\user\startup_stm32f10x_hd.s)(0x532BB241)(--cpu Cortex-M3 -g --apcs=interwork -ID:\work\ireead\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 522" --pd "STM32F10X_HD SETA 1"--list ..\obj\startup_stm32f10x_hd.lst --xref -o .\obj\startup_stm32f10x_hd.o --depend .\obj\startup_stm32f10x_hd.d)
+F (.\src\USER\main.c)(0x59074541)(-c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I .\src\ATK-ESP8266 -I .\src\FATFS\exfuns -I .\src\FATFS\src -I .\src\FATFS\src\option -I .\src\HARDWARE\24CXX -I .\src\HARDWARE\FLASH -I .\src\HARDWARE\KEY -I .\src\HARDWARE\LCD -I .\src\HARDWARE\LED -I .\src\HARDWARE\SD -I .\src\HARDWARE\SPI -I .\src\HARDWARE\TIMER -I .\src\HARDWARE\TOUCH -I .\src\HARDWARE\USART2 -I .\src\MALLOC -I .\src\SYSTEM\delay -I .\src\SYSTEM\sys -I .\src\SYSTEM\usart -I .\src\TEXT -I .\src\USMART-ID:\work\ireead\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DSTM32F10X_HD -DSTM32F10X_HD-o .\obj\main.o --omf_browse .\obj\main.crf --depend .\obj\main.d)
+I (.\src\SYSTEM\sys\sys.h)(0x550EC367)
+I (.\src\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\src\SYSTEM\sys\core_cm3.h)(0x58C7DBD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\src\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\src\SYSTEM\delay\delay.h)(0x555AC61F)
+I (.\src\SYSTEM\usart\usart.h)(0x58CBACEA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (.\src\HARDWARE\LED\led.h)(0x5317183E)
+I (.\src\HARDWARE\LCD\lcd.h)(0x553B60B3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (.\src\HARDWARE\KEY\key.h)(0x58F9632B)
+I (.\src\USMART\usmart.h)(0x531AE45A)
+I (.\src\USMART\usmart_str.h)(0x531AE46D)
+I (.\src\MALLOC\malloc.h)(0x533CDF8C)
+I (.\src\HARDWARE\SD\mmc_sd.h)(0x5321BCB9)
+I (.\src\HARDWARE\FLASH\flash.h)(0x55E4301B)
+I (.\src\FATFS\src\ff.h)(0x52D56672)
+I (.\src\FATFS\src\integer.h)(0x52D56672)
+I (.\src\FATFS\src\ffconf.h)(0x532282B1)
+I (.\src\FATFS\exfuns\exfuns.h)(0x53228403)
+I (.\src\TEXT\text.h)(0x5322D5CC)
+I (.\src\TEXT\fontupd.h)(0x5322D5CC)
+I (.\src\HARDWARE\USART2\usart2.h)(0x58CBABE9)
+I (.\src\HARDWARE\TOUCH\touch.h)(0x553B875B)
+I (.\src\HARDWARE\TOUCH\ott2001a.h)(0x544F9325)
+I (.\src\HARDWARE\TOUCH\gt9147.h)(0x544F934F)
+I (.\src\HARDWARE\TOUCH\ft5206.h)(0x553B883C)
+I (.\src\ATK-ESP8266\common.h)(0x58D0D846)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+F (.\src\SYSTEM\delay\delay.c)(0x555AC5E1)(-c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I .\src\ATK-ESP8266 -I .\src\FATFS\exfuns -I .\src\FATFS\src -I .\src\FATFS\src\option -I .\src\HARDWARE\24CXX -I .\src\HARDWARE\FLASH -I .\src\HARDWARE\KEY -I .\src\HARDWARE\LCD -I .\src\HARDWARE\LED -I .\src\HARDWARE\SD -I .\src\HARDWARE\SPI -I .\src\HARDWARE\TIMER -I .\src\HARDWARE\TOUCH -I .\src\HARDWARE\USART2 -I .\src\MALLOC -I .\src\SYSTEM\delay -I .\src\SYSTEM\sys -I .\src\SYSTEM\usart -I .\src\TEXT -I .\src\USMART-ID:\work\ireead\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DSTM32F10X_HD -DSTM32F10X_HD-o .\obj\delay.o --omf_browse .\obj\delay.crf --depend .\obj\delay.d)
+I (src\SYSTEM\delay\delay.h)(0x555AC61F)
+I (.\src\SYSTEM\sys\sys.h)(0x550EC367)
+I (.\src\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\src\SYSTEM\sys\core_cm3.h)(0x58C7DBD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\src\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+F (.\src\SYSTEM\sys\sys.c)(0x550EB960)(-c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I .\src\ATK-ESP8266 -I .\src\FATFS\exfuns -I .\src\FATFS\src -I .\src\FATFS\src\option -I .\src\HARDWARE\24CXX -I .\src\HARDWARE\FLASH -I .\src\HARDWARE\KEY -I .\src\HARDWARE\LCD -I .\src\HARDWARE\LED -I .\src\HARDWARE\SD -I .\src\HARDWARE\SPI -I .\src\HARDWARE\TIMER -I .\src\HARDWARE\TOUCH -I .\src\HARDWARE\USART2 -I .\src\MALLOC -I .\src\SYSTEM\delay -I .\src\SYSTEM\sys -I .\src\SYSTEM\usart -I .\src\TEXT -I .\src\USMART-ID:\work\ireead\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DSTM32F10X_HD -DSTM32F10X_HD-o .\obj\sys.o --omf_browse .\obj\sys.crf --depend .\obj\sys.d)
+I (src\SYSTEM\sys\sys.h)(0x550EC367)
+I (.\src\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\src\SYSTEM\sys\core_cm3.h)(0x58C7DBD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\src\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+F (.\src\SYSTEM\usart\usart.c)(0x58CBAD7C)(-c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I .\src\ATK-ESP8266 -I .\src\FATFS\exfuns -I .\src\FATFS\src -I .\src\FATFS\src\option -I .\src\HARDWARE\24CXX -I .\src\HARDWARE\FLASH -I .\src\HARDWARE\KEY -I .\src\HARDWARE\LCD -I .\src\HARDWARE\LED -I .\src\HARDWARE\SD -I .\src\HARDWARE\SPI -I .\src\HARDWARE\TIMER -I .\src\HARDWARE\TOUCH -I .\src\HARDWARE\USART2 -I .\src\MALLOC -I .\src\SYSTEM\delay -I .\src\SYSTEM\sys -I .\src\SYSTEM\usart -I .\src\TEXT -I .\src\USMART-ID:\work\ireead\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DSTM32F10X_HD -DSTM32F10X_HD-o .\obj\usart.o --omf_browse .\obj\usart.crf --depend .\obj\usart.d)
+I (src\SYSTEM\usart\usart.h)(0x58CBACEA)
+I (.\src\SYSTEM\sys\sys.h)(0x550EC367)
+I (.\src\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\src\SYSTEM\sys\core_cm3.h)(0x58C7DBD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\src\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (.\src\HARDWARE\USART2\usart2.h)(0x58CBABE9)
+I (.\src\SYSTEM\delay\delay.h)(0x555AC61F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+F (.\src\HARDWARE\24CXX\24cxx.c)(0x531C712B)(-c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I .\src\ATK-ESP8266 -I .\src\FATFS\exfuns -I .\src\FATFS\src -I .\src\FATFS\src\option -I .\src\HARDWARE\24CXX -I .\src\HARDWARE\FLASH -I .\src\HARDWARE\KEY -I .\src\HARDWARE\LCD -I .\src\HARDWARE\LED -I .\src\HARDWARE\SD -I .\src\HARDWARE\SPI -I .\src\HARDWARE\TIMER -I .\src\HARDWARE\TOUCH -I .\src\HARDWARE\USART2 -I .\src\MALLOC -I .\src\SYSTEM\delay -I .\src\SYSTEM\sys -I .\src\SYSTEM\usart -I .\src\TEXT -I .\src\USMART-ID:\work\ireead\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DSTM32F10X_HD -DSTM32F10X_HD-o .\obj\24cxx.o --omf_browse .\obj\24cxx.crf --depend .\obj\24cxx.d)
+I (src\HARDWARE\24CXX\24cxx.h)(0x531C6D4F)
+I (src\HARDWARE\24CXX\myiic.h)(0x531C6CD7)
+I (.\src\SYSTEM\sys\sys.h)(0x550EC367)
+I (.\src\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\src\SYSTEM\sys\core_cm3.h)(0x58C7DBD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\src\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\src\SYSTEM\delay\delay.h)(0x555AC61F)
+F (.\src\HARDWARE\24CXX\myiic.c)(0x531C7917)(-c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I .\src\ATK-ESP8266 -I .\src\FATFS\exfuns -I .\src\FATFS\src -I .\src\FATFS\src\option -I .\src\HARDWARE\24CXX -I .\src\HARDWARE\FLASH -I .\src\HARDWARE\KEY -I .\src\HARDWARE\LCD -I .\src\HARDWARE\LED -I .\src\HARDWARE\SD -I .\src\HARDWARE\SPI -I .\src\HARDWARE\TIMER -I .\src\HARDWARE\TOUCH -I .\src\HARDWARE\USART2 -I .\src\MALLOC -I .\src\SYSTEM\delay -I .\src\SYSTEM\sys -I .\src\SYSTEM\usart -I .\src\TEXT -I .\src\USMART-ID:\work\ireead\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DSTM32F10X_HD -DSTM32F10X_HD-o .\obj\myiic.o --omf_browse .\obj\myiic.crf --depend .\obj\myiic.d)
+I (src\HARDWARE\24CXX\myiic.h)(0x531C6CD7)
+I (.\src\SYSTEM\sys\sys.h)(0x550EC367)
+I (.\src\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\src\SYSTEM\sys\core_cm3.h)(0x58C7DBD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\src\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\src\SYSTEM\delay\delay.h)(0x555AC61F)
+F (.\src\HARDWARE\KEY\key.c)(0x58F97AA6)(-c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I .\src\ATK-ESP8266 -I .\src\FATFS\exfuns -I .\src\FATFS\src -I .\src\FATFS\src\option -I .\src\HARDWARE\24CXX -I .\src\HARDWARE\FLASH -I .\src\HARDWARE\KEY -I .\src\HARDWARE\LCD -I .\src\HARDWARE\LED -I .\src\HARDWARE\SD -I .\src\HARDWARE\SPI -I .\src\HARDWARE\TIMER -I .\src\HARDWARE\TOUCH -I .\src\HARDWARE\USART2 -I .\src\MALLOC -I .\src\SYSTEM\delay -I .\src\SYSTEM\sys -I .\src\SYSTEM\usart -I .\src\TEXT -I .\src\USMART-ID:\work\ireead\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DSTM32F10X_HD -DSTM32F10X_HD-o .\obj\key.o --omf_browse .\obj\key.crf --depend .\obj\key.d)
+I (src\HARDWARE\KEY\key.h)(0x58F9632B)
+I (.\src\SYSTEM\sys\sys.h)(0x550EC367)
+I (.\src\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\src\SYSTEM\sys\core_cm3.h)(0x58C7DBD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\src\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\src\SYSTEM\delay\delay.h)(0x555AC61F)
+F (.\src\HARDWARE\FLASH\flash.c)(0x533AD2A0)(-c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I .\src\ATK-ESP8266 -I .\src\FATFS\exfuns -I .\src\FATFS\src -I .\src\FATFS\src\option -I .\src\HARDWARE\24CXX -I .\src\HARDWARE\FLASH -I .\src\HARDWARE\KEY -I .\src\HARDWARE\LCD -I .\src\HARDWARE\LED -I .\src\HARDWARE\SD -I .\src\HARDWARE\SPI -I .\src\HARDWARE\TIMER -I .\src\HARDWARE\TOUCH -I .\src\HARDWARE\USART2 -I .\src\MALLOC -I .\src\SYSTEM\delay -I .\src\SYSTEM\sys -I .\src\SYSTEM\usart -I .\src\TEXT -I .\src\USMART-ID:\work\ireead\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DSTM32F10X_HD -DSTM32F10X_HD-o .\obj\flash.o --omf_browse .\obj\flash.crf --depend .\obj\flash.d)
+I (src\HARDWARE\FLASH\flash.h)(0x55E4301B)
+I (.\src\SYSTEM\sys\sys.h)(0x550EC367)
+I (.\src\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\src\SYSTEM\sys\core_cm3.h)(0x58C7DBD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\src\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\src\HARDWARE\SPI\spi.h)(0x531C810D)
+I (.\src\SYSTEM\delay\delay.h)(0x555AC61F)
+I (.\src\MALLOC\malloc.h)(0x533CDF8C)
+F (.\src\HARDWARE\LCD\ILI93xx.c)(0x55CAF4D6)(-c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I .\src\ATK-ESP8266 -I .\src\FATFS\exfuns -I .\src\FATFS\src -I .\src\FATFS\src\option -I .\src\HARDWARE\24CXX -I .\src\HARDWARE\FLASH -I .\src\HARDWARE\KEY -I .\src\HARDWARE\LCD -I .\src\HARDWARE\LED -I .\src\HARDWARE\SD -I .\src\HARDWARE\SPI -I .\src\HARDWARE\TIMER -I .\src\HARDWARE\TOUCH -I .\src\HARDWARE\USART2 -I .\src\MALLOC -I .\src\SYSTEM\delay -I .\src\SYSTEM\sys -I .\src\SYSTEM\usart -I .\src\TEXT -I .\src\USMART-ID:\work\ireead\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DSTM32F10X_HD -DSTM32F10X_HD-o .\obj\ili93xx.o --omf_browse .\obj\ili93xx.crf --depend .\obj\ili93xx.d)
+I (src\HARDWARE\LCD\lcd.h)(0x553B60B3)
+I (.\src\SYSTEM\sys\sys.h)(0x550EC367)
+I (.\src\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\src\SYSTEM\sys\core_cm3.h)(0x58C7DBD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\src\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (src\HARDWARE\LCD\font.h)(0x52C52FE7)
+I (.\src\SYSTEM\usart\usart.h)(0x58CBACEA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (.\src\SYSTEM\delay\delay.h)(0x555AC61F)
+F (.\src\HARDWARE\LED\led.c)(0x5317183E)(-c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I .\src\ATK-ESP8266 -I .\src\FATFS\exfuns -I .\src\FATFS\src -I .\src\FATFS\src\option -I .\src\HARDWARE\24CXX -I .\src\HARDWARE\FLASH -I .\src\HARDWARE\KEY -I .\src\HARDWARE\LCD -I .\src\HARDWARE\LED -I .\src\HARDWARE\SD -I .\src\HARDWARE\SPI -I .\src\HARDWARE\TIMER -I .\src\HARDWARE\TOUCH -I .\src\HARDWARE\USART2 -I .\src\MALLOC -I .\src\SYSTEM\delay -I .\src\SYSTEM\sys -I .\src\SYSTEM\usart -I .\src\TEXT -I .\src\USMART-ID:\work\ireead\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DSTM32F10X_HD -DSTM32F10X_HD-o .\obj\led.o --omf_browse .\obj\led.crf --depend .\obj\led.d)
+I (.\src\SYSTEM\sys\sys.h)(0x550EC367)
+I (.\src\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\src\SYSTEM\sys\core_cm3.h)(0x58C7DBD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\src\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (src\HARDWARE\LED\led.h)(0x5317183E)
+F (.\src\HARDWARE\SD\MMC_SD.C)(0x5321BCB9)(-c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I .\src\ATK-ESP8266 -I .\src\FATFS\exfuns -I .\src\FATFS\src -I .\src\FATFS\src\option -I .\src\HARDWARE\24CXX -I .\src\HARDWARE\FLASH -I .\src\HARDWARE\KEY -I .\src\HARDWARE\LCD -I .\src\HARDWARE\LED -I .\src\HARDWARE\SD -I .\src\HARDWARE\SPI -I .\src\HARDWARE\TIMER -I .\src\HARDWARE\TOUCH -I .\src\HARDWARE\USART2 -I .\src\MALLOC -I .\src\SYSTEM\delay -I .\src\SYSTEM\sys -I .\src\SYSTEM\usart -I .\src\TEXT -I .\src\USMART-ID:\work\ireead\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DSTM32F10X_HD -DSTM32F10X_HD-o .\obj\mmc_sd.o --omf_browse .\obj\mmc_sd.crf --depend .\obj\mmc_sd.d)
+I (.\src\SYSTEM\sys\sys.h)(0x550EC367)
+I (.\src\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\src\SYSTEM\sys\core_cm3.h)(0x58C7DBD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\src\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (src\HARDWARE\SD\mmc_sd.h)(0x5321BCB9)
+I (.\src\HARDWARE\SPI\spi.h)(0x531C810D)
+I (.\src\SYSTEM\usart\usart.h)(0x58CBACEA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+F (.\src\HARDWARE\SPI\spi.c)(0x531C8276)(-c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I .\src\ATK-ESP8266 -I .\src\FATFS\exfuns -I .\src\FATFS\src -I .\src\FATFS\src\option -I .\src\HARDWARE\24CXX -I .\src\HARDWARE\FLASH -I .\src\HARDWARE\KEY -I .\src\HARDWARE\LCD -I .\src\HARDWARE\LED -I .\src\HARDWARE\SD -I .\src\HARDWARE\SPI -I .\src\HARDWARE\TIMER -I .\src\HARDWARE\TOUCH -I .\src\HARDWARE\USART2 -I .\src\MALLOC -I .\src\SYSTEM\delay -I .\src\SYSTEM\sys -I .\src\SYSTEM\usart -I .\src\TEXT -I .\src\USMART-ID:\work\ireead\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DSTM32F10X_HD -DSTM32F10X_HD-o .\obj\spi.o --omf_browse .\obj\spi.crf --depend .\obj\spi.d)
+I (src\HARDWARE\SPI\spi.h)(0x531C810D)
+I (.\src\SYSTEM\sys\sys.h)(0x550EC367)
+I (.\src\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\src\SYSTEM\sys\core_cm3.h)(0x58C7DBD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\src\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+F (.\src\HARDWARE\TOUCH\ctiic.c)(0x553B883C)(-c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I .\src\ATK-ESP8266 -I .\src\FATFS\exfuns -I .\src\FATFS\src -I .\src\FATFS\src\option -I .\src\HARDWARE\24CXX -I .\src\HARDWARE\FLASH -I .\src\HARDWARE\KEY -I .\src\HARDWARE\LCD -I .\src\HARDWARE\LED -I .\src\HARDWARE\SD -I .\src\HARDWARE\SPI -I .\src\HARDWARE\TIMER -I .\src\HARDWARE\TOUCH -I .\src\HARDWARE\USART2 -I .\src\MALLOC -I .\src\SYSTEM\delay -I .\src\SYSTEM\sys -I .\src\SYSTEM\usart -I .\src\TEXT -I .\src\USMART-ID:\work\ireead\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DSTM32F10X_HD -DSTM32F10X_HD-o .\obj\ctiic.o --omf_browse .\obj\ctiic.crf --depend .\obj\ctiic.d)
+I (src\HARDWARE\TOUCH\ctiic.h)(0x553B883C)
+I (.\src\SYSTEM\sys\sys.h)(0x550EC367)
+I (.\src\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\src\SYSTEM\sys\core_cm3.h)(0x58C7DBD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\src\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\src\SYSTEM\delay\delay.h)(0x555AC61F)
+F (.\src\HARDWARE\TOUCH\ft5206.c)(0x553B883C)(-c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I .\src\ATK-ESP8266 -I .\src\FATFS\exfuns -I .\src\FATFS\src -I .\src\FATFS\src\option -I .\src\HARDWARE\24CXX -I .\src\HARDWARE\FLASH -I .\src\HARDWARE\KEY -I .\src\HARDWARE\LCD -I .\src\HARDWARE\LED -I .\src\HARDWARE\SD -I .\src\HARDWARE\SPI -I .\src\HARDWARE\TIMER -I .\src\HARDWARE\TOUCH -I .\src\HARDWARE\USART2 -I .\src\MALLOC -I .\src\SYSTEM\delay -I .\src\SYSTEM\sys -I .\src\SYSTEM\usart -I .\src\TEXT -I .\src\USMART-ID:\work\ireead\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DSTM32F10X_HD -DSTM32F10X_HD-o .\obj\ft5206.o --omf_browse .\obj\ft5206.crf --depend .\obj\ft5206.d)
+I (src\HARDWARE\TOUCH\ft5206.h)(0x553B883C)
+I (.\src\SYSTEM\sys\sys.h)(0x550EC367)
+I (.\src\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\src\SYSTEM\sys\core_cm3.h)(0x58C7DBD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\src\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (src\HARDWARE\TOUCH\touch.h)(0x553B875B)
+I (src\HARDWARE\TOUCH\ott2001a.h)(0x544F9325)
+I (src\HARDWARE\TOUCH\gt9147.h)(0x544F934F)
+I (src\HARDWARE\TOUCH\ctiic.h)(0x553B883C)
+I (.\src\SYSTEM\usart\usart.h)(0x58CBACEA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (.\src\SYSTEM\delay\delay.h)(0x555AC61F)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+F (.\src\HARDWARE\TOUCH\gt9147.c)(0x544FAADA)(-c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I .\src\ATK-ESP8266 -I .\src\FATFS\exfuns -I .\src\FATFS\src -I .\src\FATFS\src\option -I .\src\HARDWARE\24CXX -I .\src\HARDWARE\FLASH -I .\src\HARDWARE\KEY -I .\src\HARDWARE\LCD -I .\src\HARDWARE\LED -I .\src\HARDWARE\SD -I .\src\HARDWARE\SPI -I .\src\HARDWARE\TIMER -I .\src\HARDWARE\TOUCH -I .\src\HARDWARE\USART2 -I .\src\MALLOC -I .\src\SYSTEM\delay -I .\src\SYSTEM\sys -I .\src\SYSTEM\usart -I .\src\TEXT -I .\src\USMART-ID:\work\ireead\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DSTM32F10X_HD -DSTM32F10X_HD-o .\obj\gt9147.o --omf_browse .\obj\gt9147.crf --depend .\obj\gt9147.d)
+I (src\HARDWARE\TOUCH\gt9147.h)(0x544F934F)
+I (.\src\SYSTEM\sys\sys.h)(0x550EC367)
+I (.\src\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\src\SYSTEM\sys\core_cm3.h)(0x58C7DBD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\src\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (src\HARDWARE\TOUCH\touch.h)(0x553B875B)
+I (src\HARDWARE\TOUCH\ott2001a.h)(0x544F9325)
+I (src\HARDWARE\TOUCH\ft5206.h)(0x553B883C)
+I (src\HARDWARE\TOUCH\ctiic.h)(0x553B883C)
+I (.\src\SYSTEM\usart\usart.h)(0x58CBACEA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (.\src\SYSTEM\delay\delay.h)(0x555AC61F)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+F (.\src\HARDWARE\TOUCH\ott2001a.c)(0x544F9325)(-c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I .\src\ATK-ESP8266 -I .\src\FATFS\exfuns -I .\src\FATFS\src -I .\src\FATFS\src\option -I .\src\HARDWARE\24CXX -I .\src\HARDWARE\FLASH -I .\src\HARDWARE\KEY -I .\src\HARDWARE\LCD -I .\src\HARDWARE\LED -I .\src\HARDWARE\SD -I .\src\HARDWARE\SPI -I .\src\HARDWARE\TIMER -I .\src\HARDWARE\TOUCH -I .\src\HARDWARE\USART2 -I .\src\MALLOC -I .\src\SYSTEM\delay -I .\src\SYSTEM\sys -I .\src\SYSTEM\usart -I .\src\TEXT -I .\src\USMART-ID:\work\ireead\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DSTM32F10X_HD -DSTM32F10X_HD-o .\obj\ott2001a.o --omf_browse .\obj\ott2001a.crf --depend .\obj\ott2001a.d)
+I (src\HARDWARE\TOUCH\ott2001a.h)(0x544F9325)
+I (.\src\SYSTEM\sys\sys.h)(0x550EC367)
+I (.\src\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\src\SYSTEM\sys\core_cm3.h)(0x58C7DBD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\src\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (src\HARDWARE\TOUCH\touch.h)(0x553B875B)
+I (src\HARDWARE\TOUCH\gt9147.h)(0x544F934F)
+I (src\HARDWARE\TOUCH\ft5206.h)(0x553B883C)
+I (src\HARDWARE\TOUCH\ctiic.h)(0x553B883C)
+I (.\src\SYSTEM\usart\usart.h)(0x58CBACEA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (.\src\SYSTEM\delay\delay.h)(0x555AC61F)
+F (.\src\HARDWARE\TOUCH\touch.c)(0x553B875B)(-c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I .\src\ATK-ESP8266 -I .\src\FATFS\exfuns -I .\src\FATFS\src -I .\src\FATFS\src\option -I .\src\HARDWARE\24CXX -I .\src\HARDWARE\FLASH -I .\src\HARDWARE\KEY -I .\src\HARDWARE\LCD -I .\src\HARDWARE\LED -I .\src\HARDWARE\SD -I .\src\HARDWARE\SPI -I .\src\HARDWARE\TIMER -I .\src\HARDWARE\TOUCH -I .\src\HARDWARE\USART2 -I .\src\MALLOC -I .\src\SYSTEM\delay -I .\src\SYSTEM\sys -I .\src\SYSTEM\usart -I .\src\TEXT -I .\src\USMART-ID:\work\ireead\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DSTM32F10X_HD -DSTM32F10X_HD-o .\obj\touch.o --omf_browse .\obj\touch.crf --depend .\obj\touch.d)
+I (src\HARDWARE\TOUCH\touch.h)(0x553B875B)
+I (.\src\SYSTEM\sys\sys.h)(0x550EC367)
+I (.\src\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\src\SYSTEM\sys\core_cm3.h)(0x58C7DBD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\src\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (src\HARDWARE\TOUCH\ott2001a.h)(0x544F9325)
+I (src\HARDWARE\TOUCH\gt9147.h)(0x544F934F)
+I (src\HARDWARE\TOUCH\ft5206.h)(0x553B883C)
+I (.\src\HARDWARE\LCD\lcd.h)(0x553B60B3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (.\src\SYSTEM\delay\delay.h)(0x555AC61F)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (.\src\HARDWARE\24CXX\24cxx.h)(0x531C6D4F)
+I (.\src\HARDWARE\24CXX\myiic.h)(0x531C6CD7)
+F (.\src\HARDWARE\USART2\usart2.c)(0x58CFC128)(-c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I .\src\ATK-ESP8266 -I .\src\FATFS\exfuns -I .\src\FATFS\src -I .\src\FATFS\src\option -I .\src\HARDWARE\24CXX -I .\src\HARDWARE\FLASH -I .\src\HARDWARE\KEY -I .\src\HARDWARE\LCD -I .\src\HARDWARE\LED -I .\src\HARDWARE\SD -I .\src\HARDWARE\SPI -I .\src\HARDWARE\TIMER -I .\src\HARDWARE\TOUCH -I .\src\HARDWARE\USART2 -I .\src\MALLOC -I .\src\SYSTEM\delay -I .\src\SYSTEM\sys -I .\src\SYSTEM\usart -I .\src\TEXT -I .\src\USMART-ID:\work\ireead\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DSTM32F10X_HD -DSTM32F10X_HD-o .\obj\usart2.o --omf_browse .\obj\usart2.crf --depend .\obj\usart2.d)
+I (.\src\SYSTEM\delay\delay.h)(0x555AC61F)
+I (.\src\SYSTEM\sys\sys.h)(0x550EC367)
+I (.\src\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\src\SYSTEM\sys\core_cm3.h)(0x58C7DBD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\src\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (src\HARDWARE\USART2\usart2.h)(0x58CBABE9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+F (.\src\USMART\usmart.c)(0x533ACF7C)(-c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I .\src\ATK-ESP8266 -I .\src\FATFS\exfuns -I .\src\FATFS\src -I .\src\FATFS\src\option -I .\src\HARDWARE\24CXX -I .\src\HARDWARE\FLASH -I .\src\HARDWARE\KEY -I .\src\HARDWARE\LCD -I .\src\HARDWARE\LED -I .\src\HARDWARE\SD -I .\src\HARDWARE\SPI -I .\src\HARDWARE\TIMER -I .\src\HARDWARE\TOUCH -I .\src\HARDWARE\USART2 -I .\src\MALLOC -I .\src\SYSTEM\delay -I .\src\SYSTEM\sys -I .\src\SYSTEM\usart -I .\src\TEXT -I .\src\USMART-ID:\work\ireead\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DSTM32F10X_HD -DSTM32F10X_HD-o .\obj\usmart.o --omf_browse .\obj\usmart.crf --depend .\obj\usmart.d)
+I (src\USMART\usmart.h)(0x531AE45A)
+I (src\USMART\usmart_str.h)(0x531AE46D)
+I (.\src\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\src\SYSTEM\sys\core_cm3.h)(0x58C7DBD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\src\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\src\SYSTEM\usart\usart.h)(0x58CBACEA)
+I (.\src\SYSTEM\sys\sys.h)(0x550EC367)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+F (.\src\USMART\usmart_config.c)(0x5638737D)(-c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I .\src\ATK-ESP8266 -I .\src\FATFS\exfuns -I .\src\FATFS\src -I .\src\FATFS\src\option -I .\src\HARDWARE\24CXX -I .\src\HARDWARE\FLASH -I .\src\HARDWARE\KEY -I .\src\HARDWARE\LCD -I .\src\HARDWARE\LED -I .\src\HARDWARE\SD -I .\src\HARDWARE\SPI -I .\src\HARDWARE\TIMER -I .\src\HARDWARE\TOUCH -I .\src\HARDWARE\USART2 -I .\src\MALLOC -I .\src\SYSTEM\delay -I .\src\SYSTEM\sys -I .\src\SYSTEM\usart -I .\src\TEXT -I .\src\USMART-ID:\work\ireead\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DSTM32F10X_HD -DSTM32F10X_HD-o .\obj\usmart_config.o --omf_browse .\obj\usmart_config.crf --depend .\obj\usmart_config.d)
+I (src\USMART\usmart.h)(0x531AE45A)
+I (src\USMART\usmart_str.h)(0x531AE46D)
+I (.\src\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\src\SYSTEM\sys\core_cm3.h)(0x58C7DBD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\src\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\src\SYSTEM\delay\delay.h)(0x555AC61F)
+I (.\src\SYSTEM\sys\sys.h)(0x550EC367)
+I (.\src\SYSTEM\usart\usart.h)(0x58CBACEA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (.\src\HARDWARE\FLASH\flash.h)(0x55E4301B)
+I (.\src\ATK-ESP8266\common.h)(0x58D0D846)
+I (.\src\HARDWARE\LED\led.h)(0x5317183E)
+I (.\src\HARDWARE\KEY\key.h)(0x58F9632B)
+I (.\src\HARDWARE\LCD\lcd.h)(0x553B60B3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (.\src\HARDWARE\TOUCH\touch.h)(0x553B875B)
+I (.\src\HARDWARE\TOUCH\ott2001a.h)(0x544F9325)
+I (.\src\HARDWARE\TOUCH\gt9147.h)(0x544F934F)
+I (.\src\HARDWARE\TOUCH\ft5206.h)(0x553B883C)
+I (.\src\MALLOC\malloc.h)(0x533CDF8C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\src\TEXT\text.h)(0x5322D5CC)
+I (.\src\TEXT\fontupd.h)(0x5322D5CC)
+I (.\src\HARDWARE\USART2\usart2.h)(0x58CBABE9)
+I (.\src\FATFS\src\ff.h)(0x52D56672)
+I (.\src\FATFS\src\integer.h)(0x52D56672)
+I (.\src\FATFS\src\ffconf.h)(0x532282B1)
+F (.\src\USMART\usmart_str.c)(0x531AE46D)(-c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I .\src\ATK-ESP8266 -I .\src\FATFS\exfuns -I .\src\FATFS\src -I .\src\FATFS\src\option -I .\src\HARDWARE\24CXX -I .\src\HARDWARE\FLASH -I .\src\HARDWARE\KEY -I .\src\HARDWARE\LCD -I .\src\HARDWARE\LED -I .\src\HARDWARE\SD -I .\src\HARDWARE\SPI -I .\src\HARDWARE\TIMER -I .\src\HARDWARE\TOUCH -I .\src\HARDWARE\USART2 -I .\src\MALLOC -I .\src\SYSTEM\delay -I .\src\SYSTEM\sys -I .\src\SYSTEM\usart -I .\src\TEXT -I .\src\USMART-ID:\work\ireead\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DSTM32F10X_HD -DSTM32F10X_HD-o .\obj\usmart_str.o --omf_browse .\obj\usmart_str.crf --depend .\obj\usmart_str.d)
+I (src\USMART\usmart_str.h)(0x531AE46D)
+I (.\src\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\src\SYSTEM\sys\core_cm3.h)(0x58C7DBD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\src\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (src\USMART\usmart.h)(0x531AE45A)
+F (.\src\FATFS\exfuns\exfuns.c)(0x53228403)(-c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I .\src\ATK-ESP8266 -I .\src\FATFS\exfuns -I .\src\FATFS\src -I .\src\FATFS\src\option -I .\src\HARDWARE\24CXX -I .\src\HARDWARE\FLASH -I .\src\HARDWARE\KEY -I .\src\HARDWARE\LCD -I .\src\HARDWARE\LED -I .\src\HARDWARE\SD -I .\src\HARDWARE\SPI -I .\src\HARDWARE\TIMER -I .\src\HARDWARE\TOUCH -I .\src\HARDWARE\USART2 -I .\src\MALLOC -I .\src\SYSTEM\delay -I .\src\SYSTEM\sys -I .\src\SYSTEM\usart -I .\src\TEXT -I .\src\USMART-ID:\work\ireead\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DSTM32F10X_HD -DSTM32F10X_HD-o .\obj\exfuns.o --omf_browse .\obj\exfuns.crf --depend .\obj\exfuns.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (src\FATFS\exfuns\exfuns.h)(0x53228403)
+I (.\src\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\src\SYSTEM\sys\core_cm3.h)(0x58C7DBD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\src\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\src\FATFS\src\ff.h)(0x52D56672)
+I (.\src\FATFS\src\integer.h)(0x52D56672)
+I (.\src\FATFS\src\ffconf.h)(0x532282B1)
+I (src\FATFS\exfuns\fattester.h)(0x53228AC0)
+I (.\src\MALLOC\malloc.h)(0x533CDF8C)
+I (.\src\SYSTEM\usart\usart.h)(0x58CBACEA)
+I (.\src\SYSTEM\sys\sys.h)(0x550EC367)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+F (.\src\FATFS\exfuns\fattester.c)(0x53228C49)(-c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I .\src\ATK-ESP8266 -I .\src\FATFS\exfuns -I .\src\FATFS\src -I .\src\FATFS\src\option -I .\src\HARDWARE\24CXX -I .\src\HARDWARE\FLASH -I .\src\HARDWARE\KEY -I .\src\HARDWARE\LCD -I .\src\HARDWARE\LED -I .\src\HARDWARE\SD -I .\src\HARDWARE\SPI -I .\src\HARDWARE\TIMER -I .\src\HARDWARE\TOUCH -I .\src\HARDWARE\USART2 -I .\src\MALLOC -I .\src\SYSTEM\delay -I .\src\SYSTEM\sys -I .\src\SYSTEM\usart -I .\src\TEXT -I .\src\USMART-ID:\work\ireead\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DSTM32F10X_HD -DSTM32F10X_HD-o .\obj\fattester.o --omf_browse .\obj\fattester.crf --depend .\obj\fattester.d)
+I (src\FATFS\exfuns\fattester.h)(0x53228AC0)
+I (.\src\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\src\SYSTEM\sys\core_cm3.h)(0x58C7DBD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\src\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\src\FATFS\src\ff.h)(0x52D56672)
+I (.\src\FATFS\src\integer.h)(0x52D56672)
+I (.\src\FATFS\src\ffconf.h)(0x532282B1)
+I (.\src\HARDWARE\SD\mmc_sd.h)(0x5321BCB9)
+I (.\src\SYSTEM\sys\sys.h)(0x550EC367)
+I (.\src\USMART\usmart.h)(0x531AE45A)
+I (.\src\USMART\usmart_str.h)(0x531AE46D)
+I (.\src\SYSTEM\usart\usart.h)(0x58CBACEA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (src\FATFS\exfuns\exfuns.h)(0x53228403)
+I (.\src\MALLOC\malloc.h)(0x533CDF8C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+F (.\src\FATFS\exfuns\mycc936.c)(0x5322D5D9)(-c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I .\src\ATK-ESP8266 -I .\src\FATFS\exfuns -I .\src\FATFS\src -I .\src\FATFS\src\option -I .\src\HARDWARE\24CXX -I .\src\HARDWARE\FLASH -I .\src\HARDWARE\KEY -I .\src\HARDWARE\LCD -I .\src\HARDWARE\LED -I .\src\HARDWARE\SD -I .\src\HARDWARE\SPI -I .\src\HARDWARE\TIMER -I .\src\HARDWARE\TOUCH -I .\src\HARDWARE\USART2 -I .\src\MALLOC -I .\src\SYSTEM\delay -I .\src\SYSTEM\sys -I .\src\SYSTEM\usart -I .\src\TEXT -I .\src\USMART-ID:\work\ireead\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DSTM32F10X_HD -DSTM32F10X_HD-o .\obj\mycc936.o --omf_browse .\obj\mycc936.crf --depend .\obj\mycc936.d)
+I (.\src\FATFS\src\ff.h)(0x52D56672)
+I (.\src\FATFS\src\integer.h)(0x52D56672)
+I (.\src\FATFS\src\ffconf.h)(0x532282B1)
+I (.\src\TEXT\fontupd.h)(0x5322D5CC)
+I (.\src\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\src\SYSTEM\sys\core_cm3.h)(0x58C7DBD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\src\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\src\HARDWARE\FLASH\flash.h)(0x55E4301B)
+I (.\src\SYSTEM\sys\sys.h)(0x550EC367)
+F (.\src\FATFS\src\diskio.c)(0x55E42F5F)(-c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I .\src\ATK-ESP8266 -I .\src\FATFS\exfuns -I .\src\FATFS\src -I .\src\FATFS\src\option -I .\src\HARDWARE\24CXX -I .\src\HARDWARE\FLASH -I .\src\HARDWARE\KEY -I .\src\HARDWARE\LCD -I .\src\HARDWARE\LED -I .\src\HARDWARE\SD -I .\src\HARDWARE\SPI -I .\src\HARDWARE\TIMER -I .\src\HARDWARE\TOUCH -I .\src\HARDWARE\USART2 -I .\src\MALLOC -I .\src\SYSTEM\delay -I .\src\SYSTEM\sys -I .\src\SYSTEM\usart -I .\src\TEXT -I .\src\USMART-ID:\work\ireead\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DSTM32F10X_HD -DSTM32F10X_HD-o .\obj\diskio.o --omf_browse .\obj\diskio.crf --depend .\obj\diskio.d)
+I (src\FATFS\src\diskio.h)(0x55E42F8A)
+I (src\FATFS\src\integer.h)(0x52D56672)
+I (.\src\HARDWARE\SD\mmc_sd.h)(0x5321BCB9)
+I (.\src\SYSTEM\sys\sys.h)(0x550EC367)
+I (.\src\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\src\SYSTEM\sys\core_cm3.h)(0x58C7DBD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\src\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\src\HARDWARE\FLASH\flash.h)(0x55E4301B)
+I (.\src\MALLOC\malloc.h)(0x533CDF8C)
+F (.\src\FATFS\src\ff.c)(0x52D56672)(-c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I .\src\ATK-ESP8266 -I .\src\FATFS\exfuns -I .\src\FATFS\src -I .\src\FATFS\src\option -I .\src\HARDWARE\24CXX -I .\src\HARDWARE\FLASH -I .\src\HARDWARE\KEY -I .\src\HARDWARE\LCD -I .\src\HARDWARE\LED -I .\src\HARDWARE\SD -I .\src\HARDWARE\SPI -I .\src\HARDWARE\TIMER -I .\src\HARDWARE\TOUCH -I .\src\HARDWARE\USART2 -I .\src\MALLOC -I .\src\SYSTEM\delay -I .\src\SYSTEM\sys -I .\src\SYSTEM\usart -I .\src\TEXT -I .\src\USMART-ID:\work\ireead\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DSTM32F10X_HD -DSTM32F10X_HD-o .\obj\ff.o --omf_browse .\obj\ff.crf --depend .\obj\ff.d)
+I (src\FATFS\src\ff.h)(0x52D56672)
+I (src\FATFS\src\integer.h)(0x52D56672)
+I (src\FATFS\src\ffconf.h)(0x532282B1)
+I (src\FATFS\src\diskio.h)(0x55E42F8A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+F (.\src\TEXT\fontupd.c)(0x5322F4D7)(-c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I .\src\ATK-ESP8266 -I .\src\FATFS\exfuns -I .\src\FATFS\src -I .\src\FATFS\src\option -I .\src\HARDWARE\24CXX -I .\src\HARDWARE\FLASH -I .\src\HARDWARE\KEY -I .\src\HARDWARE\LCD -I .\src\HARDWARE\LED -I .\src\HARDWARE\SD -I .\src\HARDWARE\SPI -I .\src\HARDWARE\TIMER -I .\src\HARDWARE\TOUCH -I .\src\HARDWARE\USART2 -I .\src\MALLOC -I .\src\SYSTEM\delay -I .\src\SYSTEM\sys -I .\src\SYSTEM\usart -I .\src\TEXT -I .\src\USMART-ID:\work\ireead\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DSTM32F10X_HD -DSTM32F10X_HD-o .\obj\fontupd.o --omf_browse .\obj\fontupd.crf --depend .\obj\fontupd.d)
+I (src\TEXT\fontupd.h)(0x5322D5CC)
+I (.\src\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\src\SYSTEM\sys\core_cm3.h)(0x58C7DBD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\src\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\src\FATFS\src\ff.h)(0x52D56672)
+I (.\src\FATFS\src\integer.h)(0x52D56672)
+I (.\src\FATFS\src\ffconf.h)(0x532282B1)
+I (.\src\HARDWARE\FLASH\flash.h)(0x55E4301B)
+I (.\src\SYSTEM\sys\sys.h)(0x550EC367)
+I (.\src\HARDWARE\LCD\lcd.h)(0x553B60B3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (.\src\MALLOC\malloc.h)(0x533CDF8C)
+F (.\src\TEXT\text.c)(0x5322D5CC)(-c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I .\src\ATK-ESP8266 -I .\src\FATFS\exfuns -I .\src\FATFS\src -I .\src\FATFS\src\option -I .\src\HARDWARE\24CXX -I .\src\HARDWARE\FLASH -I .\src\HARDWARE\KEY -I .\src\HARDWARE\LCD -I .\src\HARDWARE\LED -I .\src\HARDWARE\SD -I .\src\HARDWARE\SPI -I .\src\HARDWARE\TIMER -I .\src\HARDWARE\TOUCH -I .\src\HARDWARE\USART2 -I .\src\MALLOC -I .\src\SYSTEM\delay -I .\src\SYSTEM\sys -I .\src\SYSTEM\usart -I .\src\TEXT -I .\src\USMART-ID:\work\ireead\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DSTM32F10X_HD -DSTM32F10X_HD-o .\obj\text.o --omf_browse .\obj\text.crf --depend .\obj\text.d)
+I (.\src\SYSTEM\sys\sys.h)(0x550EC367)
+I (.\src\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\src\SYSTEM\sys\core_cm3.h)(0x58C7DBD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\src\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (src\TEXT\fontupd.h)(0x5322D5CC)
+I (.\src\HARDWARE\FLASH\flash.h)(0x55E4301B)
+I (.\src\HARDWARE\LCD\lcd.h)(0x553B60B3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (src\TEXT\text.h)(0x5322D5CC)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+F (.\src\ATK-ESP8266\apsta.c)(0x56375C1B)(-c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I .\src\ATK-ESP8266 -I .\src\FATFS\exfuns -I .\src\FATFS\src -I .\src\FATFS\src\option -I .\src\HARDWARE\24CXX -I .\src\HARDWARE\FLASH -I .\src\HARDWARE\KEY -I .\src\HARDWARE\LCD -I .\src\HARDWARE\LED -I .\src\HARDWARE\SD -I .\src\HARDWARE\SPI -I .\src\HARDWARE\TIMER -I .\src\HARDWARE\TOUCH -I .\src\HARDWARE\USART2 -I .\src\MALLOC -I .\src\SYSTEM\delay -I .\src\SYSTEM\sys -I .\src\SYSTEM\usart -I .\src\TEXT -I .\src\USMART-ID:\work\ireead\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DSTM32F10X_HD -DSTM32F10X_HD-o .\obj\apsta.o --omf_browse .\obj\apsta.crf --depend .\obj\apsta.d)
+I (src\ATK-ESP8266\common.h)(0x58D0D846)
+I (.\src\SYSTEM\sys\sys.h)(0x550EC367)
+I (.\src\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\src\SYSTEM\sys\core_cm3.h)(0x58C7DBD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\src\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\src\SYSTEM\usart\usart.h)(0x58CBACEA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (.\src\SYSTEM\delay\delay.h)(0x555AC61F)
+I (.\src\HARDWARE\LED\led.h)(0x5317183E)
+I (.\src\HARDWARE\KEY\key.h)(0x58F9632B)
+I (.\src\HARDWARE\LCD\lcd.h)(0x553B60B3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (.\src\HARDWARE\FLASH\flash.h)(0x55E4301B)
+I (.\src\HARDWARE\TOUCH\touch.h)(0x553B875B)
+I (.\src\HARDWARE\TOUCH\ott2001a.h)(0x544F9325)
+I (.\src\HARDWARE\TOUCH\gt9147.h)(0x544F934F)
+I (.\src\HARDWARE\TOUCH\ft5206.h)(0x553B883C)
+I (.\src\MALLOC\malloc.h)(0x533CDF8C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\src\TEXT\text.h)(0x5322D5CC)
+I (.\src\TEXT\fontupd.h)(0x5322D5CC)
+I (.\src\HARDWARE\USART2\usart2.h)(0x58CBABE9)
+I (.\src\FATFS\src\ff.h)(0x52D56672)
+I (.\src\FATFS\src\integer.h)(0x52D56672)
+I (.\src\FATFS\src\ffconf.h)(0x532282B1)
+F (.\src\ATK-ESP8266\common.c)(0x58F97879)(-c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I .\src\ATK-ESP8266 -I .\src\FATFS\exfuns -I .\src\FATFS\src -I .\src\FATFS\src\option -I .\src\HARDWARE\24CXX -I .\src\HARDWARE\FLASH -I .\src\HARDWARE\KEY -I .\src\HARDWARE\LCD -I .\src\HARDWARE\LED -I .\src\HARDWARE\SD -I .\src\HARDWARE\SPI -I .\src\HARDWARE\TIMER -I .\src\HARDWARE\TOUCH -I .\src\HARDWARE\USART2 -I .\src\MALLOC -I .\src\SYSTEM\delay -I .\src\SYSTEM\sys -I .\src\SYSTEM\usart -I .\src\TEXT -I .\src\USMART-ID:\work\ireead\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DSTM32F10X_HD -DSTM32F10X_HD-o .\obj\common.o --omf_browse .\obj\common.crf --depend .\obj\common.d)
+I (src\ATK-ESP8266\common.h)(0x58D0D846)
+I (.\src\SYSTEM\sys\sys.h)(0x550EC367)
+I (.\src\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\src\SYSTEM\sys\core_cm3.h)(0x58C7DBD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\src\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\src\SYSTEM\usart\usart.h)(0x58CBACEA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (.\src\SYSTEM\delay\delay.h)(0x555AC61F)
+I (.\src\HARDWARE\LED\led.h)(0x5317183E)
+I (.\src\HARDWARE\KEY\key.h)(0x58F9632B)
+I (.\src\HARDWARE\LCD\lcd.h)(0x553B60B3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (.\src\HARDWARE\FLASH\flash.h)(0x55E4301B)
+I (.\src\HARDWARE\TOUCH\touch.h)(0x553B875B)
+I (.\src\HARDWARE\TOUCH\ott2001a.h)(0x544F9325)
+I (.\src\HARDWARE\TOUCH\gt9147.h)(0x544F934F)
+I (.\src\HARDWARE\TOUCH\ft5206.h)(0x553B883C)
+I (.\src\MALLOC\malloc.h)(0x533CDF8C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\src\TEXT\text.h)(0x5322D5CC)
+I (.\src\TEXT\fontupd.h)(0x5322D5CC)
+I (.\src\HARDWARE\USART2\usart2.h)(0x58CBABE9)
+I (.\src\FATFS\src\ff.h)(0x52D56672)
+I (.\src\FATFS\src\integer.h)(0x52D56672)
+I (.\src\FATFS\src\ffconf.h)(0x532282B1)
+F (.\src\ATK-ESP8266\wifiap.c)(0x563758B6)(-c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I .\src\ATK-ESP8266 -I .\src\FATFS\exfuns -I .\src\FATFS\src -I .\src\FATFS\src\option -I .\src\HARDWARE\24CXX -I .\src\HARDWARE\FLASH -I .\src\HARDWARE\KEY -I .\src\HARDWARE\LCD -I .\src\HARDWARE\LED -I .\src\HARDWARE\SD -I .\src\HARDWARE\SPI -I .\src\HARDWARE\TIMER -I .\src\HARDWARE\TOUCH -I .\src\HARDWARE\USART2 -I .\src\MALLOC -I .\src\SYSTEM\delay -I .\src\SYSTEM\sys -I .\src\SYSTEM\usart -I .\src\TEXT -I .\src\USMART-ID:\work\ireead\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DSTM32F10X_HD -DSTM32F10X_HD-o .\obj\wifiap.o --omf_browse .\obj\wifiap.crf --depend .\obj\wifiap.d)
+I (src\ATK-ESP8266\common.h)(0x58D0D846)
+I (.\src\SYSTEM\sys\sys.h)(0x550EC367)
+I (.\src\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\src\SYSTEM\sys\core_cm3.h)(0x58C7DBD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\src\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\src\SYSTEM\usart\usart.h)(0x58CBACEA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (.\src\SYSTEM\delay\delay.h)(0x555AC61F)
+I (.\src\HARDWARE\LED\led.h)(0x5317183E)
+I (.\src\HARDWARE\KEY\key.h)(0x58F9632B)
+I (.\src\HARDWARE\LCD\lcd.h)(0x553B60B3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (.\src\HARDWARE\FLASH\flash.h)(0x55E4301B)
+I (.\src\HARDWARE\TOUCH\touch.h)(0x553B875B)
+I (.\src\HARDWARE\TOUCH\ott2001a.h)(0x544F9325)
+I (.\src\HARDWARE\TOUCH\gt9147.h)(0x544F934F)
+I (.\src\HARDWARE\TOUCH\ft5206.h)(0x553B883C)
+I (.\src\MALLOC\malloc.h)(0x533CDF8C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\src\TEXT\text.h)(0x5322D5CC)
+I (.\src\TEXT\fontupd.h)(0x5322D5CC)
+I (.\src\HARDWARE\USART2\usart2.h)(0x58CBABE9)
+I (.\src\FATFS\src\ff.h)(0x52D56672)
+I (.\src\FATFS\src\integer.h)(0x52D56672)
+I (.\src\FATFS\src\ffconf.h)(0x532282B1)
+F (.\src\ATK-ESP8266\wifista.c)(0x563758B6)(-c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I .\src\ATK-ESP8266 -I .\src\FATFS\exfuns -I .\src\FATFS\src -I .\src\FATFS\src\option -I .\src\HARDWARE\24CXX -I .\src\HARDWARE\FLASH -I .\src\HARDWARE\KEY -I .\src\HARDWARE\LCD -I .\src\HARDWARE\LED -I .\src\HARDWARE\SD -I .\src\HARDWARE\SPI -I .\src\HARDWARE\TIMER -I .\src\HARDWARE\TOUCH -I .\src\HARDWARE\USART2 -I .\src\MALLOC -I .\src\SYSTEM\delay -I .\src\SYSTEM\sys -I .\src\SYSTEM\usart -I .\src\TEXT -I .\src\USMART-ID:\work\ireead\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DSTM32F10X_HD -DSTM32F10X_HD-o .\obj\wifista.o --omf_browse .\obj\wifista.crf --depend .\obj\wifista.d)
+I (src\ATK-ESP8266\common.h)(0x58D0D846)
+I (.\src\SYSTEM\sys\sys.h)(0x550EC367)
+I (.\src\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\src\SYSTEM\sys\core_cm3.h)(0x58C7DBD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\src\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\src\SYSTEM\usart\usart.h)(0x58CBACEA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (.\src\SYSTEM\delay\delay.h)(0x555AC61F)
+I (.\src\HARDWARE\LED\led.h)(0x5317183E)
+I (.\src\HARDWARE\KEY\key.h)(0x58F9632B)
+I (.\src\HARDWARE\LCD\lcd.h)(0x553B60B3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (.\src\HARDWARE\FLASH\flash.h)(0x55E4301B)
+I (.\src\HARDWARE\TOUCH\touch.h)(0x553B875B)
+I (.\src\HARDWARE\TOUCH\ott2001a.h)(0x544F9325)
+I (.\src\HARDWARE\TOUCH\gt9147.h)(0x544F934F)
+I (.\src\HARDWARE\TOUCH\ft5206.h)(0x553B883C)
+I (.\src\MALLOC\malloc.h)(0x533CDF8C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\src\TEXT\text.h)(0x5322D5CC)
+I (.\src\TEXT\fontupd.h)(0x5322D5CC)
+I (.\src\HARDWARE\USART2\usart2.h)(0x58CBABE9)
+I (.\src\FATFS\src\ff.h)(0x52D56672)
+I (.\src\FATFS\src\integer.h)(0x52D56672)
+I (.\src\FATFS\src\ffconf.h)(0x532282B1)
+F (.\src\MALLOC\malloc.c)(0x5325AC91)(-c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I .\src\ATK-ESP8266 -I .\src\FATFS\exfuns -I .\src\FATFS\src -I .\src\FATFS\src\option -I .\src\HARDWARE\24CXX -I .\src\HARDWARE\FLASH -I .\src\HARDWARE\KEY -I .\src\HARDWARE\LCD -I .\src\HARDWARE\LED -I .\src\HARDWARE\SD -I .\src\HARDWARE\SPI -I .\src\HARDWARE\TIMER -I .\src\HARDWARE\TOUCH -I .\src\HARDWARE\USART2 -I .\src\MALLOC -I .\src\SYSTEM\delay -I .\src\SYSTEM\sys -I .\src\SYSTEM\usart -I .\src\TEXT -I .\src\USMART-ID:\work\ireead\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DSTM32F10X_HD -DSTM32F10X_HD-o .\obj\malloc.o --omf_browse .\obj\malloc.crf --depend .\obj\malloc.d)
+I (src\MALLOC\malloc.h)(0x533CDF8C)
+I (.\src\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (.\src\SYSTEM\sys\core_cm3.h)(0x58C7DBD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\src\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+F (.\src\README.TXT)(0x562B5410)()

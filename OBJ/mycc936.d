@@ -1,0 +1,11 @@
+.\obj\mycc936.o: src\FATFS\exfuns\mycc936.c
+.\obj\mycc936.o: .\src\FATFS\src\ff.h
+.\obj\mycc936.o: .\src\FATFS\src\integer.h
+.\obj\mycc936.o: .\src\FATFS\src\ffconf.h
+.\obj\mycc936.o: .\src\TEXT\fontupd.h
+.\obj\mycc936.o: .\src\SYSTEM\sys\stm32f10x.h
+.\obj\mycc936.o: .\src\SYSTEM\sys\core_cm3.h
+.\obj\mycc936.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\mycc936.o: .\src\SYSTEM\sys\system_stm32f10x.h
+.\obj\mycc936.o: .\src\HARDWARE\FLASH\flash.h
+.\obj\mycc936.o: .\src\SYSTEM\sys\sys.h

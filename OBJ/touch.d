@@ -1,0 +1,16 @@
+.\obj\touch.o: src\HARDWARE\TOUCH\touch.c
+.\obj\touch.o: src\HARDWARE\TOUCH\touch.h
+.\obj\touch.o: .\src\SYSTEM\sys\sys.h
+.\obj\touch.o: .\src\SYSTEM\sys\stm32f10x.h
+.\obj\touch.o: .\src\SYSTEM\sys\core_cm3.h
+.\obj\touch.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\touch.o: .\src\SYSTEM\sys\system_stm32f10x.h
+.\obj\touch.o: src\HARDWARE\TOUCH\ott2001a.h
+.\obj\touch.o: src\HARDWARE\TOUCH\gt9147.h
+.\obj\touch.o: src\HARDWARE\TOUCH\ft5206.h
+.\obj\touch.o: .\src\HARDWARE\LCD\lcd.h
+.\obj\touch.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\obj\touch.o: .\src\SYSTEM\delay\delay.h
+.\obj\touch.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\obj\touch.o: .\src\HARDWARE\24CXX\24cxx.h
+.\obj\touch.o: .\src\HARDWARE\24CXX\myiic.h
